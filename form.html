@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="form.css">
+  <title>Sign Up | ENAC FnB</title>
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <div class="text-header">Register</div>
+    </div>
+    <div class="card-body">
+      <form action="#">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input required="" class="form-control" name="username" id="input_username" type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input required="" class="form-control" name="email" id="input_email" type="email">
+        </div>
+        <div class="form-group">
+          <label for="email">Address:</label>
+          <input required="" class="form-control" name="email" id="input_alamat" type="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input required="" class="form-control" name="password" id="input_password" type="password">
+        </div>
+        <br>
+        <div class="form-group-gender">
+          <label for="confirm-password">Gender :</label>
+          <div class="gender">
+            <div class="men">
+              <input required="" class="radio" type="radio" value="Men">
+              <label for="confirm-password">Men</label>
+            </div>
+            <div class="woman">
+              <input required="" class="radio" type="radio" value="Woman">
+              <label for="confirm-password">Woman</label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="confirm-password">Terms & Condition Agreement</label>
+          <input required="" class="form-control" name="confirm-password" id="checked" type="checkbox">
+        </div>
+        <a id="submit" onclick="daftar()" href="">
+          <input type="submit" class="btn" value="submit">
+        </a>
+        <a id="submit" class="btn" href="index.html">BACK</a>
+      </form>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
